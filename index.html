@@ -1,22 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Know the Country</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Vite + React</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Country Info Finder</h1>
-      <input
-        type="text"
-        id="countryInput"
-        placeholder="Enter country name..."
-      />
-      <button onclick="fetchCountry()">Search</button>
-      <div id="result"></div>
-    </div>
-    <script src="./scripts/country.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
